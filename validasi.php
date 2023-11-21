@@ -18,6 +18,6 @@ if($affected_rows == 1) {
     $_SESSION['sadmin_username']=$username;
     header( 'location: admin.php');
 } else {
-    header( 'location: login.php');
+    header( 'location: login.php' );
 }
 ?>
