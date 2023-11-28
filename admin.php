@@ -28,8 +28,12 @@ $row1 = mysqli_fetch_array($result1, MYSQLI_ASSOC);
 $numrows = $row1['numrows'];
 echo "Total Nomor Bukutamu : $numrows";
 ?>
+<head>
+    <link rel="icon" href="icon.png">
+    <title>Daftar BukuTamu</title>
+</head>
 </p>
-<p><h2 align="center">Daftar Buku tamu</h2></p>
+<p><h2 align="center">Daftar Buku Tamu</h2></p>
 <table align="center">
     <tr>
         <td><a href="input_bukutamu.php">Isi Buku Tamu</a></td>
@@ -47,7 +51,7 @@ echo "Total Nomor Bukutamu : $numrows";
             <div align="center"><strong>No</strong></div>
         </td>
         <td width="56%">
-            <div align="center"><strong>bukutamu</strong></div>
+            <div align="center"><strong>Buku Tamu</strong></div>
         </td>
         <td width="9%"><strong>Delete</strong></td>
         <td width="9%">

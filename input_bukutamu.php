@@ -5,7 +5,7 @@ if (isset($_POST['upload'])) {
     $nama = htmlentities(trim($_POST['tnama']));
     $email = htmlentities(trim($_POST['temail']));
     $komentar = nl2br(htmlentities(trim($_POST['tkomentar'])));
-    $date = date("j F Y, g:i a");
+    $date = date("j F Y, H:i A");
     $ip1 = $_SERVER["REMOTE_ADDR"];
     $ip2 = getenv("HTTP_X_FORWARDED_FOR");
     $ip = $ip1 . '-' . $ip2;
@@ -25,6 +25,7 @@ if (isset($_POST['upload'])) {
 ?>
 <html>
     <head>
+        <link rel="icon" href="icon.png">
         <title>Input Bukutamu</title>
     </head>
     <body>
@@ -63,7 +64,7 @@ if (isset($_POST['upload'])) {
                 <tr>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td><input name="upload" type="submit" class="box" id="uploadform" value="Submit" size="30" maxlength="30"></td>
+                    <td><input name="upload" type="submit" class="box" id="uploadform" value="Submit"></td>
                 </tr>
                 <tr>
                     <td colspan="3"><span class="style1">*</span> : Harus mengisi data </td>

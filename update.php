@@ -2,10 +2,10 @@
 include("config.php");
 session_start();
 
-if (empty($_SESSION['sadmin_username'])); {
-    header('Location: login.php');
+if (empty($_SESSION['sadmin_username'])) {
+    header('Location: login.php ');
 }
-if (isset($_POST['btnUpdate'])); {
+if (isset($_POST['btnUpdate'])) {
 
     $id = trim($_POST['id']);
     $nama = trim($_POST['tnama']);
@@ -34,7 +34,7 @@ if (isset($_POST['btnUpdate'])); {
 </p>
 <form method="post" name="updateform" id="updateform">
     <input type="hidden" id="id" value="<?= $id; ?>" name="id">
-    <table width="100%" border="0%" align="center" cellpadding="2" cellspacing="2" class="komentar">
+    <table width="100%" border="0" align="center" cellpadding="2" cellspacing="2" class="komentar">
         <tr bgcolor="#FFDFAA">
             <td colspan="3">
                 <div align="center"><strong>Update Guestbook</strong></div>
@@ -61,8 +61,8 @@ if (isset($_POST['btnUpdate'])); {
             <td valign="top">&nbsp;</td>
         </tr>
         <tr>
-            <td align="top">&nbsp;</td>
-            <td align="top">&nbsp;</td>
+            <td valign="top">&nbsp;</td>
+            <td valign="top">&nbsp;</td>
             <td align="left" valign="top"><textarea name="tkomentar" cols="60" rows="15" id="tkomentar">
                 <?= $komentar; ?>
                 </textarea></td>
@@ -70,7 +70,7 @@ if (isset($_POST['btnUpdate'])); {
         <tr>
             <td align="left" valign="top">&nbsp;</td>
             <td align="center" valign="top">&nbsp;</td>
-            <td valign="top"><input name="btnUpdate" type="submit" class="box" id="btnUpdate" value="update"></td>
+            <td valign="top"><input name="btnUpdate" type="submit" class="box" id="btnUpdate" value="Update"></td>
         </tr>
     </table>
 </form>

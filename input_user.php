@@ -33,6 +33,7 @@ if(isset($_POST['upload'])) {
 
 <html>
     <head>
+        <link rel="icon" href="icon.png">
         <title>Menambahkan User Admin</title>
     </head>
     <body>

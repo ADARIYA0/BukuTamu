@@ -1,7 +1,8 @@
 <html>
 
     <head>
-        <title>Buku Tamu</title>
+        <link rel="icon" href="icon.png">
+        <title>BukuTamu Anugerah</title>
     </head>
 
     <body>

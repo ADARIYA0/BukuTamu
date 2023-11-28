@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link rel="icon" href="icon.png">
         <title>Login</title>
     </head>
     <body>
