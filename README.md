@@ -6,6 +6,7 @@
     <p>di repository ini saya membagikan file-file codingan dari modul 8 atau guestbook/bukutamu.</p>
     <p>Oiya Jangan lupa untuk menyalakan Apache dan MySQL nya pada XAMPP ya</p>
     <p> dan jangan lupa juga untuk membuat tabel databasenya terlebih dahulu di phpmyadmin agar codingannya berjalan dengan lancar.</p>
-    <p>Jika ingin melihat websitenya tanpa XAMPP kalian bisa melihatnya di bagian About repository ini.<b>Terima Kasih!</b></p>
+    <p>Jika ingin melihat websitenya tanpa XAMPP kalian bisa melihatnya di bagian About repository ini.
+    <b>Terima Kasih!</b></p>
   </body>
 </html>
